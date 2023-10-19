@@ -8,7 +8,7 @@
     
     본 프로젝트의 핵심 목표는 CRUD 게시판의 구축을 통해, Spring과 SQL에 대한 이해도와 숙련도를 보여주는 것입니다.
     
-    첫째, Spring MVC와 JPA, 그리고 Spring Security 등의 기술을 활용하여 1-2일 안에 CRUD 게시판을 완성하는 것을 목표로 합니다.
+    첫째, Spring MVC와 JPA, 그리고 Spring Security 등의 기술을 활용하여 CRUD 게시판을 완성하는 것을 목표로 합니다.
     
     그리고, 각 편의 기능을 하나씩 제거하며 대체 기술과 디자인 패턴 등을 활용합니다.
     
