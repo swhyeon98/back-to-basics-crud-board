@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout/header :: header"></head>
+<body>
+<h1>단순 CRUD 게시판</h1>
+<div class="col-md-12">
+  <div class="row">
+    <div class="col-md-6">
+      <a th:href="@{/post/save}" role="button" class="btn btn-primary">글 등록</a>
+    </div>
+  </div>
+  <br>
+  <!-- 목록 출력 영역 -->
+  <table class="table table-horizontal table-bordered">
+    <thead class="thead-strong">
+    <tr>
+      <th>게시글번호</th>
+      <th>제목</th>
+      <th>작성자</th>
+    </tr>
+    </thead>
+    <tbody id="tbody">
+    <tr th:each="post : ${post}">
+      <td th:text="${post.id}"></td>
+      <td th:text="${post.author}"></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div th:replace="layout/footer :: footer"></div>
+</body>
+</html>
