@@ -28,3 +28,10 @@
 5. 소셜 연동이 아닌, 일반 회원가입 및 로그인 기능
 6. 사용자 로그인 상태 유지
 7. 게시글을 관리하는 Admin 기능
+
+### 사용 기술 & Tools:
+
+- Backend: Java, Spring Boot, JPA
+- Authentication: OAuth 2.0
+- Database: H2, MariaDB
+- Tools: IntelliJ, Git, GitHub
