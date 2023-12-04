@@ -35,3 +35,5 @@
 - Authentication: OAuth 2.0
 - Database: H2, MariaDB
 - Tools: IntelliJ, Git, GitHub
+
+## 프로젝트 구조 및 설계
