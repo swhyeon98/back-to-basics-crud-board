@@ -39,3 +39,13 @@
 ## 프로젝트 구조 및 설계
 
 - [기능 구현 목록](docs/README.md)
+
+- **와이어프레임**:
+
+- **아키텍처 설계**:
+
+- **ERD(Entity-Relationship Diagram):**
+
+- **API 명세서:**
+
+- S**equenceDiagram:**
